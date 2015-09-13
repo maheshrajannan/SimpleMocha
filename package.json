@@ -1,0 +1,31 @@
+{
+  "name": "SimpleMocha",
+  "version": "1.0.0",
+  "description": "Simple Testing With Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maheshrajannan/SimpleMocha.git"
+  },
+  "keywords": [
+    "Simple",
+    "Testing",
+    "With",
+    "Mocha"
+  ],
+  "author": "Mahesh Rajannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshrajannan/SimpleMocha/issues"
+  },
+  "homepage": "https://github.com/maheshrajannan/SimpleMocha",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "express": "^4.13.3",
+    "mocha": "^2.3.2",
+    "request": "^2.61.0"
+  }
+}
